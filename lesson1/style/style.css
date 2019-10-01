@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 40px;
+}
+
+body > *{
+	font-size: 15px;	
+}
+
+
+div{
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+	background-color: blue;
+	vertical-align: top;
+}
+
+.info{
+	background-color: darkblue;
+}
+
+#desc{
+	color: white;
+}
