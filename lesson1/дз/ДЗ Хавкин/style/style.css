@@ -1,0 +1,51 @@
+body {
+    background: url(система.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  p{
+       border: 8px solid transparent;
+    display: inline-block;
+  }
+  .holder{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    border: 8px solid transparent;
+    box-shadow: 0 0 8px rgba(235, 0, 0, 0.082)
+    margin: 30;
+    padding: 50;
+    border-radius: 10px;  
+}
+
+h3{
+  color: white;
+}
+
+h1{
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, 
+  red -1px 1px 0, red 1px -1px 0;
+}
+body>div{
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+p {
+  opacity: 0;
+}
+
+p:hover {
+  opacity: 1;
+  background:#53ea93;
+  border: 8px solid transparent;
+    box-shadow: 0 0 8px rgba(235, 0, 0, 0.726);
+}
+iframe{
+  margin-bottom: 20px;
+}

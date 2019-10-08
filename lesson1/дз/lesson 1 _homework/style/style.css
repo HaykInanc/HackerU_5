@@ -1,0 +1,55 @@
+* { 								/* asterisk means apply this style to the whole page */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+.wrapper {
+	margin: 0 auto 0 60px;
+	width: 1000px;
+}
+
+.textstyle {
+	margin: 20px auto 10px 60px;
+	width: 1000px;
+	color: gray;
+}
+nav {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+}
+
+ul {
+	margin-left: 0px;
+}
+
+ul li {
+	list-style: none;				/* removes bullet-points from the list */
+	display: inline-block; 			/* changes view from list to line block */
+	float: left; 					/* removes little auto spacing between word, instead used padding in "ul-li-a" */
+	line-height: 100px; 			/* as nav height is 100, the same line height here sets list to be aligned in the middle */
+}
+
+ul li a {
+	display: block; 				/* makes available mouse hover over the block */
+	text-decoration: none; 			/* removes underline from links */
+	font-size: 14px;
+	font-family: arial;
+	color: #1e1e1e;
+	padding: 0 20px; 				/* 20px for the left and right of words */
+}
+
+ul li a:hover {
+	color: white;
+	background-color: red;
+	font-weight: bold;
+}
+
+.p_black{
+	width: 1000px;
+	color: black;
+}

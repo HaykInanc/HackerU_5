@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: lightblue;
+}
+
+.ballpoint {
+    position: fixed;
+    background-color: darkgoldenrod;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    right: 5px;
+    bottom: 5px;
+  
+}
+
+.ballpoint h1 {
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    bottom: -25px;
+}
+.topmenu {
+    height: 80px;
+    vertical-align: top;
+    width: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+    font-weight: bold;
+    
+
+}
+.menu {
+    text-align: center;
+    
+}
+.blocks>*{
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 280px;
+    background-color: darkslateblue;
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+    transition: background-color .75s cubic-bezier(0.45,-0.44, 0.42, 1.76);
+    
+}
+.blocks {
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.blocks>div:hover{
+        background-color: lightskyblue;
+}
+
+
+.topmenu .menu>li{
+    display: inline-block;
+    padding:30px;
+    width: 75px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: lightpink;
+    border-radius: 13%;
+    cursor: pointer;
+    position: relative;
+    margin-left: 45px; 
+    margin-right: 45px;
+    transition: background-color .75s cubic-bezier(0.45,-0.44, 0.42, 1.76);
+    
+
+}
+.topmenu .menu>li:hover{
+    background-color: lightskyblue;
+}
+
+.ava1 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+.ava2 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    display: inline-block;
+}
+.ava3 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    display: inline-block;
+}
+.ava4 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    display: inline-block;
+}
+
+p {
+   display: inline-block;
+   vertical-align: top;
+   font-weight: bold;
+    
+}
+
+.blocks>div{
+    margin-right: 10%;
+    margin-left: 15%;
+}
+

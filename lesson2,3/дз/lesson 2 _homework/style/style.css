@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	background-color: green;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	text-align: center;
+	width: 800px;
+}
+
+.nav .menu > li{
+	display: inline-block;
+	cursor: pointer; 
+	padding: 20px;
+}
+
+.persCard{
+	font-size: 0;
+}
+.persCard {
+	font-size: 15px;
+	width: 800px;
+	height: 800px;
+	display: inline-block;
+	margin-top: 60px;
+	background-color: gray;
+}
+
+.persBox {
+	background-color: white;
+	height: 300px;
+	width: 300px;
+	margin: 50px 45px 30px 45px;
+	display: inline-block;
+	vertical-align: center;
+	border-radius: 5px;
+}
+
+.persImg {
+	position: absolute;
+	border: 1px solid;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.persName {
+	border: 1px solid;
+	height: 150px;
+	width: 150px;
+	background-color: aqua;
+
+}
+
+.persAbout {
+	background-color: yellow;
+	height: 150px;
+	width: 300px;
+
+}

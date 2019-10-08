@@ -1,0 +1,48 @@
+body {
+    text-align: center; /* А как расположить по центру блок? */
+    background: #fff url(Images/back.jpg); /* Фоновый цвет и фоновый рисунок. Нужен ли здесь фон вообще?*/
+	color: #000; /* Цвет текста на странице */
+	background-attachment: fixed; /* Фон страницы фиксируется. Зачем? Что будет, если не? */
+	background-repeat: repeat; /* Изображение повторяется по горизонтали если repeat-x. А по вертикали как будет повторяться? */
+    font-family: 'Pacifico', cursive; /* Половина шрифтов из Google не работает. Почему? */
+    padding: 10px; /* Было некогда с ними экспериментировать. Работает – не трогай! */
+    margin: 30px;
+}
+
+div { display: inline-block;
+    font-family: 'Cuprum', sans-serif;
+    line-height: 150%;
+    text-align: left;
+    width: 520px;
+    background-color: #fff;
+    margin: 20px;
+    /* Внешний отступ */
+    padding: 20px;
+    /* внутренний отступ */
+    border: 3px solid rgb(51, 23, 23);
+    /* outline не занимает места в отличие от border, но не работает с закруглениями */
+    border-radius: 8px;
+}
+
+info { display: inline-block;
+    font-family: 'Cuprum', sans-serif;
+    line-height: 150%;
+    text-align: left;
+    width: 520px;
+    background-color: rgb(255, 252, 83);
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid rgb(51, 23, 23);
+    border-radius: 10px;
+}
+
+a[href^="http"] { /* начинается на "http://" */
+    font-weight: bold;
+}
+
+.foto{ /* Не смог отформатировать изображение по-другому */
+    float:left;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:6px;
+    }

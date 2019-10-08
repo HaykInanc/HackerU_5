@@ -1,0 +1,51 @@
+body{
+    background: url(1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: inline-table;
+    text-align: center;
+    font-size: 70%;
+    height: 100vh;
+    width: 100%;
+  }
+  h2{
+  color: gold;
+  text-align: center;
+}
+
+a{
+  color: blue;
+}
+
+#topleft{
+  color: black;
+  text-align: left;
+  font-size: 220%;
+  margin-top: 3%;
+  padding-left: 5%;
+}
+
+#topright{
+  color: black;
+  text-align: right;
+  font-size: 220%;
+  margin-top: 0%;
+  padding-right: 5%;
+}
+
+#topup{
+  color: black;
+  text-align: right;
+  font-size: 250%;
+  padding-right: 10%;
+}
+
+#topdown{
+  color: black;
+  text-align: left;
+  font-size: 250%;
+  margin-top: 10%;
+  padding-left: 2%;
+  vertical-align: 100%;
+  
+}

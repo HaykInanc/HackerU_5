@@ -1,0 +1,1 @@
+setTimeout(function () { alert('If you want to learn about my hobbies, please continue and press OK') }, 500);

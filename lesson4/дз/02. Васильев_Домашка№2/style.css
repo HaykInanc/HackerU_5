@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: pink;
+}
+
+.main{
+    position: relative;
+    padding-top: 100px;
+
+}
+
+
+.coub{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 10px; 
+    padding: 30px;
+    margin: 20px;
+}
+
+p.text{
+    position: absolute;
+    text-align: left;
+    bottom: 20px;
+    left: 5px;
+    padding: 20px;
+}
+
+p.pasport{
+    position: absolute;
+    text-align: left;
+    right: 20px;
+    top: 15px;
+}
+
+.dotted{
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 3;
+}
+
+.Superdotted{
+    position: fixed;
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 3;
+}
+
+.table{
+    text-align: center;
+    background-color: green;
+    position: fixed; /* Фиксирует тулбар */
+    width: 100%;
+    z-index: 10;
+}
+
+.table .menu>li{
+    position: relative; /* Без этой строчки всплывающее окно будет съезжать вправо */
+    display: inline-block; /* Устанавливает элементы списка в строку */
+    cursor: pointer; 
+    padding: 20px;
+    color: white;
+}
+
+.drop{
+    position: absolute; /* Без этой строчки всплывать будет в родительском блоке */
+    top: 100%; /* Список всплывает под родительским блоком */
+    background-color: magenta; /* Делает розовенький цвет */ 
+    text-align: left; /* Выравнивает элементы всплывающего списка по левому краю */
+    height: 0; /* Элемент в неактивном виде схлопнут по высоте */
+    overflow: hidden;
+    transition: height 1s ease;
+    border-radius: 6px;
+}
+
+.drop li{
+    padding: 5px;
+    color: yellow;
+}
+
+.table .menu>li:hover .drop{
+    height: fit-content; /* Во, какой я умный, сам нашёл, не гуглил! */
+}

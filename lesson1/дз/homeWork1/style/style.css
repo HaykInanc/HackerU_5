@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 40px;
+}
+
+body > *{
+    font-size: 15px;
+}
+
+
+div{
+    display: inline-block;
+    width: 196px;
+    height: 270px;
+    background-color: blueviolet;
+    vertical-align: top;
+    margin: 30px 10px 5px 40px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;    
+}
+
+.info{
+    background-color: rgb(161, 20, 107);
+}
+
+#desc{
+    color: white;
+}
