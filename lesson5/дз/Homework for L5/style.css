@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainFirst{
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(245, 242, 242)
+
+}
+.topMenu{
+    display: inline-block;
+    width: 80%;
+    height: 95px;
+    background-color: rgb(52, 52, 52);
+    margin: 2% 10% 15% 10%; 
+    text-align: center;
+
+}
+
+.topMenu div{
+    height: 100%;
+    
+}
+
+
+.topText>*{
+    display: inline-block;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 520;
+    background-color: transparent;
+    width: 15%; 
+    line-height: 100px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.topText>*:hover{
+    background-color: red;
+}
+
+.ourorg{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    position: relative;
+    left: 10.5%;
+    top:-19.5%
+}
+
+.ourorg h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 2%;
+
+}
+
+.ourorg p{
+    text-align: justify;
+    color: rgb(111, 109, 109);
+    line-height: 140%;
+}
+
+.contactBlock{
+    display: inline-block;
+    text-align: center;   
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5%;
+    cursor: pointer;
+    line-height: 45px;
+    min-width: 170px;
+    height: 45px; 
+    color: white;
+    position: relative;
+    left: -25%;
+    top: -9%;
+}
+
+.video{
+    display: inline-block;
+    width: 35%;
+    height: 315px;
+    background-color: rgb(196, 192, 177);
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    cursor: pointer;
+}
+
+.mainSecond{
+    display: inline-block;
+    width: 100%;
+    height: 2800px;
+}
+
+.doyouknow{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    /* margin: 7.5% 0 2% 9%; */
+    position: relative;
+    left: 10.5%;
+    top: 4.5%;
+} 
+
+.doyouknow h1{
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 5%;
+}
+.doyouknow p{
+    color: rgb(88, 88, 88);
+    line-height: 140%;
+}
+
+.learnBlock{
+    display: inline-block;
+    text-align: center;   
+    border: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5%;
+    cursor: pointer;
+    line-height: 45px;
+    min-width: 170px;
+    height: 45px; 
+    color: red;
+    position: relative;
+    left: -25%;
+    top: 8%;
+}
+
+.grid-container{
+    display: inline-grid;
+    height:600px;
+    width: 45%;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10%;
+    grid-column-gap: 10%;
+    position: relative;
+
+}
+
+
+.grid-container h1{
+    margin-bottom: 15px;
+    color: rgb(115, 115, 115);
+    font-weight: 500;
+}
+
+.grid-container p{
+    font-weight: 300;
+    color: rgb(115, 115, 115);
+    line-height: 150%;
+}
+
+.item1{
+    padding: 10px;
+}
+.item2{
+    padding: 10px;
+}
+.item3{
+    padding: 10px;
+}
+.item4{
+    padding: 10px;
+}
+
+.fas{
+    color: red;
+}
+
+.hr1{
+    display: inline-block;
+    width: 85%;
+    margin-left: 8%;
+    /* margin-right: auto; */
+    height: 3px;
+    background-color: whitesmoke;
+    opacity: 75%;
+    margin-top: 10%;
+    border: 0 none;
+
+}
+
+.feature{
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+    position: relative;
+    left: 29%;
+    top: 5%;
+    text-align: center;
+
+
+
+}
+
+.feature h1{
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 4%;
+    
+}
+
+.feature p{
+    font-weight: 300;
+    color: rgb(115, 115, 115);
+    line-height: 150%;
+}
+.hr2{
+    display: inline-block;
+    width: 8%;
+    height: 3px;
+    background-color: red;
+    border: 0 none;
+    position: relative;
+    top: 6.5%;
+    left: 1.5%;
+}
+.middleMenu{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    top: 2%;
+    left: 14.5%;
+    
+}
+
+.middleText>*{
+    display: inline-block;
+    height: 35px;
+    background-color: transparent;
+    text-align: center;
+    color: rgb(115, 115, 115);
+    margin: 0 0 0 5%;
+    font-weight: 550;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.middleText>*:hover{
+    color: red;
+}
+
+.midGrid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    grid-row-gap: 3%;
+    grid-column-gap: 3%;
+    padding: 10px;
+    height: 600px;
+    margin: 5% 0 0 8.5%;
+    cursor: pointer;
+}
+
+.grid-item{
+    background-color: rgb(245, 240, 221);
+}
+
+.textUnder{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    margin: 7.5% 0 1% 10%;
+}
+.textUnder h1{
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 5%;
+}
+.textUnder p{
+    color: rgb(115, 115, 115);
+    line-height: 150%;
+    text-align: justify;
+}
+.hr3{
+    display: inline-block;
+    width: 25%;
+    margin-top: 7.5%;
+    opacity: 75%;
+    height: 2px;
+    background-color: red;
+    border: 0 none;
+}
+
+.photoBlock{
+    display: inline-block;
+    width: 80%;
+    height: 600px;
+    margin: 0 10% 5% 10%;
+}
+
+.mainPhoto{
+    width: 25%;
+    height: 450px;
+    background-color: rgb(245, 240, 221)
+}
+.textOverPhoto{
+    width: 90%;
+    height: 100px;
+    margin-left: 125%;
+}
+.textOverPhoto h1{
+    margin-bottom: 15px;
+    color: rgb(88, 88, 88);
+    font-weight: 500;
+}
+.textOverPhoto p{
+    font-weight: 300;
+    color: rgb(115, 115, 115) ;
+    line-height: 150%;
+}
+.linkBox{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 31.5%;
+    bottom: 67.5%;
+    width: 30%;
+    color: rgb(88, 88, 88);
+    font-style: italic;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.bottomGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 65%;
+    height: 30%;
+    grid-column-gap: 3%;
+    position: relative;
+    left: 30%;
+    bottom: 30%;
+}
+.bottomGrid-item{
+    background-color: rgb(245, 240, 221);
+}
+a{
+    text-decoration: none;
+    color: rgb(111, 109, 109);
+    
+}
+
+.link{
+    transition: color 0.5s ease;
+}
+.link>*:hover{
+    color: blue;
+}
+
+.mainLast{
+    display: inline-block;
+    width: 100%;
+    height: 1200px;
+}
+
+.coloredBlock{
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    background-color: rgb(245, 240, 221);
+    margin: -2.5% auto 0.5% auto;
+    text-align: center;
+}
+.coloredText h1{
+    color: white;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.coloredText p{
+    color: white;
+    margin-top: 2%;
+    /* line-height: 150%; */
+    /* text-align: justify; */
+
+}
+.emailBox input{
+    width: 60%;
+    height: 70px;
+    border: none;
+    border-radius: 5%;
+    padding-left: 2.5%;
+    margin-left: 40%;
+}
+
+.button input{
+    display: inline-block;
+    height: 70px;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    background-color: red;
+    width: 20%;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 60%;
+    bottom: 70px;
+    margin-left: 4%;
+    
+}
+
+form{
+    width: 65%;
+}
+
+.lastBlock{
+    height: 55%;
+    width: 100%;
+}
+.getText{
+    width: 45%;
+    height: 30%;
+    margin: 5% 0 5% 10%;
+}
+.getText h1{
+    margin-bottom: 25px;
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+}
+.getText p{
+    font-weight: 300;
+    color: rgb(115, 115, 115) ;
+    line-height: 150%;
+    text-align: justify;
+}
+.hr4{
+    display: inline-block;
+    width: 25%;
+    margin-top: 7.5%;
+    opacity: 75%;
+    height: 2px;
+    background-color: red;
+    border: 0 none;
+}
+.contactForm{
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    margin-left: 10%;
+
+}
+.nameBox{
+    display: inline-block;
+    background-color: rgb(229, 229, 229);
+    width: 45%;
+    height: 65px;
+    border: none;
+    border-radius: 5%;
+
+}
+
+.nameBox input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    padding-left: 15%;
+}
+.yourMail{
+    display: inline-block;
+    background-color: rgb(229, 229, 229);
+    width: 48%;
+    height: 65px;
+    border: none;
+    border-radius: 5%;
+    margin-left: 5%
+}
+.yourMail input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    padding-left: 15%;
+}
+.messageBox{
+    background-color: rgb(229, 229, 229);
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 3.5%;
+    margin-top: 5%;
+}
+.messageBox input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-left: 15%;
+}
+.sendButton{
+    display: inline-block;
+    background-color: red;
+    width: 100%;
+    height: 65px;
+    border: none;
+    border-radius: 3.5%;
+    margin-top: 5%;
+}
+.sendButton input{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contactInfo{
+    float: right;
+    width: 33.3%;
+    height: 400px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.contactInfo h1{
+    color: beige;
+    text-align: left;
+    font-size: larger;
+    font-weight: 550;
+    padding: 25% 0 3% 7.5%;
+}
+.contactInfo p{
+    color: beige;
+    text-align: left;
+    font-size: medium;
+    padding: 3% 0 0 7.5%;
+}
+
+.bottomLine{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(49, 48, 48);
+    margin-top: 10%;
+}
+
+.rights{
+    display: inline-block;
+    width: 35%;
+    height: 25%;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+.bottomLine p{
+    color: antiquewhite;
+}
+
+.socials{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    background-color: transparent;
+    text-align: right;
+    margin-left: 10%;
+}
+.socials i{
+    cursor: pointer;
+}
+
+/* При изменении масштаба половина сайта съезжает, возможно из за неправильно использования грида и функции инлайн блок */

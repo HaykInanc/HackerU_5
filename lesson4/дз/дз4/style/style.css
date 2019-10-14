@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header img{
+    float: left;
+    margin-left: 13%;
+    width: 45px;
+    height: 45px;
+    background: #555;
+    background-color: white;
+}
+
+body{
+    color: black;
+    background-size: cover;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    font-size: 15px;
+    text-align: justify;
+    border: 1px solid grey;
+    margin-top: -1px;
+}
+
+.nav .menu{
+    margin-left: 16%; 
+    color: black;
+    margin-top: 6px;
+    
+}
+
+.nav .menu>li{
+    padding: 5px;
+    display:inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav .inmenu {
+	background-color: lightgreen;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	transition: height 1s cubic-bezier(0.3,-1, 1, 2);
+}
+
+.nav .menu>li:hover {
+    color: orange;
+    transition: height 1s cubic-bezier(0.3,-1, 1, 2);
+}
+
+.nav .menu>li:hover .inmenu{
+    min-height: 200px;
+    min-width: 150px;
+    top: 58px;
+    color: orange;
+}
+
+.pizza{
+	font-size: 0;
+    padding-top: 100px;
+    margin-left: 230px;
+}
+
+.pizza>div{
+	position: relative;
+	display: inline-block;
+	width: 19%;
+	min-height: 350px;
+    background-color: rgba(255, 255, 255, 0.233);
+	vertical-align: top;
+	padding: 10px;
+    border-radius: 10px;
+}
+
+.pizza img{
+	width:  240px;
+}
+
+.name{
+    margin-top:0%;
+    }
+.pizza>*{
+	font-size: 30px;
+}
+
+.pizza .opis{
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+}
+
+.under:before {  
+    content: "Hit";  
+    font-size: 25px;
+    background-color: #c21313;
+    color: white;
+    font: 700 12px/21px Gotham Pro,Helvetica,sans-serif;
+    position: absolute;
+    height: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 240px;
+    
+}
+
+.new:before {
+    content: "New";  
+    font-size: 25px;
+    background-color: #c21313;
+    color: white;
+    font: 700 12px/21px Gotham Pro,Helvetica,sans-serif;
+    position: absolute;
+    height: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 240px;
+}
+.new:after{
+    content: "От 295 Р";
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    height: 50px;
+    margin-top: 330px;
+}
+
+.under:after {
+    content: "От 395 Р";
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    height: 50px;
+    margin-top: 330px;
+
+}
+
+.last:after{
+    content: "От 495 Р";
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    height: 50px;
+    margin-top: 330px;  
+}
+
+@media (max-width: 768px){
+	.pizza div{
+		width: 30%;
+		margin: 2% 1.5%;
+	}
+}
+
+@media (max-width: 700px){
+	.pizza div{
+		width: 37%;
+		margin: 2% 1.5%;
+	}
+}
+
+@media (max-width: 640px){
+	.pizza div{
+		width: 45%;
+		margin: 2% 2.5%;
+	}
+}
+
+@media (max-width: 320px){
+	.pizza div{
+		width: 95%;
+		margin: 2% 2.5%;
+	}
+}
+
+@media (max-width: 380px){
+	.pizza div{
+display: none;
+}
+}

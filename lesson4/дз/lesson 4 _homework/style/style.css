@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+.navigation {
+	background-color: gray;
+/*	position: fixed;*/
+	width: 100%;
+	margin-top: 0;
+}
+
+.navigation >div {
+	position: relative;
+	display: inline-block;
+}
+
+.nav_inner {
+	width: 80%;
+}
+
+.nav_cart {
+	width: 10%;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu >li {
+	padding: 20px;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+}
+
+.menu >li:hover {
+	background-color: green;
+	color: white;
+}
+
+.pizza_boxes {
+	font-size: 0;
+	background-color: lightgray;
+	height: 450px;
+}
+
+.pizza_boxes >* {
+	font-size: 15px;
+
+}
+
+.pizza_boxes >div {
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+
+.pizza_general_box {
+	width: 10%;
+	background-color: green;
+	position: relative;
+}
+
+.pizza_img {
+	height: 200px;
+}
+
+.img_style {
+	height: 180px;
+	margin: 10px 3%;
+}
+
+.pizza_title {
+	height: 40px;
+	padding: 10px 0 0 10px;
+	background-color: yellow;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pizza_description {
+	height: 140px;
+	padding: 10px 0 0 10px;
+	background-color: red;
+}
+
+.pizza_buy {
+	height: 50px;
+	background-color: lightblue;
+}
+
+.pizza_buy >div {
+	display: inline-block;
+	padding: 1px;
+	margin: 10px 1px 10px 4px ;
+}
+
+.pizza_price {
+	height: 25px;
+	width: 45%;
+	vertical-align: middle;
+}
+
+.pizza_tocart {
+	height: 25px;
+	width: 45%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	box-shadow: 5px 5px 10px gray;
+	border-radius: 5%;
+}

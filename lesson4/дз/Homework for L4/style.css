@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    font-weight: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topmenu {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 0.5px solid gray;
+}
+
+.topmenu img {
+    display: inline-block;
+    max-width: 10%;
+    position: relative;
+    left: 1%;
+}
+
+.topmenu ul{
+    text-align: center;
+}
+
+.topmenu .navlist {
+    text-align: center;
+    display: inline-block;
+}
+
+.topmenu .navlist>li{
+    display: inline-block;
+    padding: 20px 20px 10px 20px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    transition: color .5s ease;
+    transition: font-weight .05s ease;
+}
+
+.topmenu .navlist>li:hover{
+    color:darkorange;
+    font-weight: bold;
+
+}
+
+.pizzas div{
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    margin: 20px 2%;
+    padding: 0px 0px 22px;
+}
+
+.pizzas img{
+    min-width: 100%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px 0px 5px;
+    padding: 10px 0px 0px;
+    line-height: 1.125;
+    
+}
+
+
+h2{
+    margin: 10px 0px;
+    padding: 0px 4px 0px 0px;
+    font-weight: 500;
+}
+
+.products{
+    display: inline-block;
+    max-height: 40px;
+    min-width: 290px;
+    font-size: 15px;
+    color: grey;
+    line-height: 1.375;
+    
+}
+
+
+.price{
+    margin: 10px 0px;
+    padding: 0px 4px 0px 0px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 90px;
+    max-height: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 4px;
+
+}
+
+.choose{
+    display: inline-block;
+    border: 1px solid darkorange;
+    background-color: transparent;
+    font: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+    cursor: pointer;
+    min-width: 100px;
+    height: 33px;
+    margin-left: 25%;
+    color: darkorange;
+    transition: color .5s ease;
+    transition: font-weight .05s ease
+
+}
+
+.choose:hover{
+    color:lightsalmon;
+    font-weight: 525;
+}
+
+.cart{
+    display: inline-block;
+    border: 1px solid darkorange;
+    background-color: rgb(255, 166, 0);
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+    cursor: pointer;
+    min-width: 130px;
+    height: 45px; 
+    color: white;
+    position: relative;
+    right: -2%;
+    margin-bottom: 1%;
+}
+
+.shrooms:after{
+    content: url(new1.png);
+    position: absolute;
+    left: 15%;
+    top: 9%;
+    z-index: 3;
+
+
+        
+}
+
+.meat:after{
+    content: url(aaaaaaaaaa.png);
+    position: absolute;
+    right: 4%;
+    top: 9%;
+    z-index: 3;
+
+}
+
+.hawaii:after{
+    content: url(aaaaaaaaaa.png);
+    position: absolute;
+    left: 15%;
+    top: 66%;
+    z-index: 3;
+}

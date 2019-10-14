@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 0;
+    margin: 0 0 0 15px;
+}
+
+.nav{
+    font-size: 15px;
+    border-bottom: 1px solid darkgrey;
+    text-align: left;
+}
+
+.menu>*{
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.navImg{
+    background-image: url("https://dodopizza-a.akamaihd.net/site-static/dist/8dbd4d5523ca05b07470.svg");
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.cartButton{
+    background-color: coral;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0 0 0;
+}
+
+.card{
+    vertical-align: top;
+    width: 250px;
+    display: inline-block;
+    margin: 30px 0 0 0;
+    position: relative;
+    padding: 5px;
+    /*font-size: 15px;*/
+}
+
+/*.pizzaPic{*/
+/*    !*background-image: url("https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/eb96dd1f-6644-4803-a1b1-7b2713782d42.jpg");*!*/
+/*    !*background-size: cover;*!*/
+/*    !*background-position: center;*!*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*}*/
+
+.pizzaPic img{
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+.pizzaPic:after{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    content: '';
+    width: 65px;
+    height: 32px;
+    background-color: crimson;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.prodName{
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: Dodo Medium,Helvetica,Arial,sans-serif;
+}
+
+.prodDescr{
+    padding: 10px 0;
+    font-size: 15px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #878686;
+}
+
+.cardBottomLine{
+    position: relative;
+}
+
+.cardBottomLine div{
+    /*width: 45%;*/
+    /*text-align: center;*/
+    font-size: 16px;
+    font-family: Dodo Medium,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    /*background-color: coral;*/
+    /*border: 1px solid coral;*/
+}
+
+.price{
+
+}
+
+.cardButton{
+    /*background-color: coral;*/
+    border: 1px solid coral;
+    color: coral;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 5px 15px;
+    left: 80px;
+    /*bottom: 1px;*/
+}
+
+@media (max-width: 794px) {
+    .card{
+        width: 48%;
+        height: auto;
+    }
+    .pizzaPic img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 514px) {
+    .card{
+        width: 100%;
+        height: auto;
+    }
+    .pizzaPic img{
+        width: 100%;
+        height: auto;
+    }
+}

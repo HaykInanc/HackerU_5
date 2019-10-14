@@ -1,0 +1,252 @@
+*{ /* Это, чтобы убрать прогалины вверху */
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    text-align: center;
+    background-color: green;
+    position: fixed; /* Фиксирует тулбар */
+    width: 100%;
+    z-index: 10;
+}
+
+.table .menu>li{
+    position: relative; /* Без этой строчки всплывающее окно будет съезжать вправо */
+    display: inline-block; /* Устанавливает элементы списка в строку */
+    cursor: pointer; 
+    padding: 20px;
+}
+
+.drop{
+    position: absolute; /* Без этой строчки всплывать будет в родительском блоке */
+    top: 100%; /* Список всплывает под родительским блоком */
+    background-color: pink; /* Делает розовенький цвет */
+    text-align: left; /* Выравнивает элементы всплывающего списка по левому краю */
+    height: 0; /* Элемент в неактивном виде схлопнут по высоте */
+    overflow: hidden;
+    transition: height 1s ease;
+}
+
+.drop li{
+    padding: 5px;
+}
+
+.table .menu>li:hover .drop{
+    height: fit-content;
+}
+
+.main{
+    padding-top: 80px;
+    background-color: blanchedalmond;
+}
+
+.product{
+    display: inline-block;
+    background-color: blue;
+    vertical-align: top;
+    margin: 20px 10px;
+    width: 260px;
+    height: 460px;
+    text-align: center;
+}
+
+.product img{
+    width: 200px;
+    padding: 20px;
+}
+
+.product .name{
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.product .description{
+    padding: 10px;
+    background-color: aqua;
+    margin: 10px;
+    text-align: left;
+}
+
+.logo::after{
+    position: absolute;
+    content: url(img/yyy.jpg);
+    transform: translateY(10px) translateX(-80px);
+}
+
+.logo2::after{
+    position: absolute;
+    content: url(img/eee.jpg);
+    transform: translateY(10px) translateX(-80px);
+}
+
+.logo3::after{
+    position: absolute;
+    content: '';
+    transform: translateY(10px) translateX(-80px);
+}
+
+.question{
+    display: inline-block;
+    background-color: yellow;
+    vertical-align: top;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 260px;
+    height: fit-content;
+    text-align: left;
+}
+
+.logo .button{
+    position: absolute;
+    display: inline-block;
+    transform: translateY(466px) translateX(-63px);
+}
+
+.logo2 .button{
+    position: absolute;
+    display: inline-block;
+    transform: translateY(466px) translateX(-63px);
+}
+
+.logo3 .button{
+    position: absolute;
+    display: inline-block;
+    transform: translateY(466px) translateX(-63px);
+}
+
+@media (max-width: 786px){
+    .product img{
+        width: 160px;
+        padding: 15px;
+    }
+
+    .product{
+        display: inline-block;
+        background-color: blue;
+        vertical-align: top;
+        margin: 20px 10px;
+        width: 210px;
+        height: 462px;
+        text-align: center;
+    }
+
+    .logo::after{
+        position: absolute;
+        content: url(img/yyy70.jpg);
+        transform: translateY(10px) translateX(-69px);
+    }
+    
+    .logo2::after{
+        position: absolute;
+        content: url(img/eee70.jpg);
+        transform: translateY(10px) translateX(-69px);
+    }
+    
+}
+
+@media (max-width: 640px){
+    .product img{
+        width: 120px;
+        padding: 10px;
+    }
+
+    .product{
+        display: inline-block;
+        background-color: blue;
+        vertical-align: top;
+        margin: 20px 10px;
+        width: 150px;
+        height: 538px;
+        text-align: center;
+    }
+
+    .main {
+        padding-top: 116px;
+    }
+
+    .logo::after{
+        position: absolute;
+        content: url(img/yyy60.jpg;);
+        transform: translateY(6px) translateX(-61px);
+    }
+    
+    .logo2::after{
+        position: absolute;
+        content: url(img/eee60.jpg);
+        transform: translateY(6px) translateX(-61px);
+    }
+
+    .logo .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(542px) translateX(-68px);
+    }
+    
+    .logo2 .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(542px) translateX(-68px);
+    }
+    
+    .logo3 .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(542px) translateX(-68px);
+    }
+
+}
+
+@media (max-width: 320px){
+    .product img{
+        width: 80px;
+        padding: 5px;
+    }
+
+    .product{
+        display: inline-block;
+        background-color: blue;
+        vertical-align: top;
+        margin: 20px 10px;
+        width: 105px;
+        height: 668px;
+        text-align: center;
+    }
+
+    .main {
+        padding-top: 117px;
+    }
+
+    .logo::after{
+        position: absolute;
+        content: url(img/yyy40.jpg);
+        transform: translateY(3px) translateX(-36px);
+    }
+    
+    .logo2::after{
+        position: absolute;
+        content: url(img/eee40.jpg);
+        transform: translateY(3px) translateX(-36px);
+    }
+
+    .logo .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(671px) translateX(-65px);
+    }
+    
+    .logo2 .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(671px) translateX(-65px);
+    }
+    
+    .logo3 .button{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(671px) translateX(-65px);
+    }
+}

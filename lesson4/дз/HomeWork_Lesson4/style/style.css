@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgba(12, 2, 2, 0.945);
+    font-weight: 20px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainmenu {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 0.5px solid gray;
+}
+
+.mainmenu img {
+    display: inline-block;
+    max-width: 10%;
+    position: relative;
+    left: 1%;
+}
+
+.mainmenu ul{
+    text-align: center;
+}
+
+.mainmenu .listing {
+    text-align: center;
+    display: inline-block;
+}
+
+.mainmenu .listing>li{
+    display: inline-block;
+    padding: 20px 20px 10px 20px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    transition: color .5s ease;
+    transition: font-weight .05s ease;
+}
+
+.mainmenu .listing>li:hover{
+    color:darkorange;
+    font-weight: bold;
+
+}
+
+.pieces div{
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    margin: 20px 2%;
+    padding: 0px 0px 22px;
+}
+
+.pieces img{
+    min-width: 100%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px 0px 5px;
+    padding: 10px 0px 0px;
+    line-height: 1.125;
+    
+}
+
+
+h2{
+    margin: 10px 0px;
+    padding: 0px 4px 0px 0px;
+    font-weight: 500;
+}
+
+.goods{
+    display: inline-block;
+    max-height: 50px;
+    min-width: 300px;
+    font-size: 15px;
+    color: rgb(82, 78, 78);
+    line-height: 1.375;
+    
+}
+
+
+.cost{
+    margin: 10px 0px;
+    padding: 0px 4px 0px 0px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 90px;
+    max-height: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 4px;
+
+}
+
+.select{
+    display: inline-block;
+    border: 1px solid rgb(255, 153, 0);
+    background-color: transparent;
+    font: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+    cursor: pointer;
+    min-width: 100px;
+    height: 33px;
+    margin-left: 25%;
+    color: rgb(255, 136, 0);
+    transition: color .5s ease;
+    transition: font-weight .05s ease
+
+}
+
+.select:hover{
+    color:lightsalmon;
+    font-weight: 525;
+}
+
+.basket{
+    display: inline-block;
+    border: 1px solid darkorange;
+    background-color: rgb(255, 166, 0);
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+    cursor: pointer;
+    min-width: 130px;
+    height: 45px; 
+    color: white;
+    position: relative;
+    right: -2%;
+    margin-bottom: 1%;
+}
+
+.mushrooms:after{
+    content: " ";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    width: 29px;
+    height: 29px;
+    background-color: red;
+
+        
+}

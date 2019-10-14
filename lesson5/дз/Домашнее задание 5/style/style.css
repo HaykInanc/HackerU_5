@@ -1,0 +1,488 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Merriweather', serif;
+}
+
+.fon{
+    background: rgb(253, 232, 232);
+    width: auto;
+    padding: 5px;
+    height: 650px;
+}
+
+.nav .menu{
+    color: bisque;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav{
+    background-color: black;
+    width: 80%;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: auto;
+}
+
+.nav .menu>li{
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+    border: 3px solid red;
+}
+
+.lefta{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.leftb{
+    margin-left: 10%;
+    margin-top: 1%;
+    max-width: 30%;
+    font-size: 15px;
+}
+
+.knopa{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 12%;
+    text-align: center;
+}
+
+.knopa a{
+    color: white;
+    text-decoration: none;
+}
+
+.video{
+    text-align: right;
+}
+
+.video iframe{
+    margin-right: 10%;
+    margin-top: -16%;
+    box-shadow: 0px 0px 30px 40px lightgrey;
+}
+
+.white{
+    border-bottom: solid 1px grey;
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.white .big{
+    text-align: left;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 40px;
+    max-width: 35%;
+}
+
+.white .middle{
+    margin-top: 2%;
+    max-width: 35%;
+}
+
+.white .knopb{
+    margin-top: 2%;
+    padding: 5px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 15%;
+    text-align: center;
+    border: 2px solid orangered;
+}
+
+.knopb a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.setting{
+    margin-left: 50%;
+    margin-top: -23%;
+}
+
+.setting i{
+    font-size: 250%;
+    color: orangered;
+}
+
+.setting h2{
+    margin-top: 1%;
+}
+
+.setting p{
+    margin-top: 1%;
+    max-width: 40%;
+}
+
+.diamond{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.diamond i{
+    font-size: 250%;
+    color: orangered;
+}
+
+.diamond h2{
+    margin-top: 1%;
+}
+
+.diamond p{
+    margin-top: 1%;
+    max-width: 40%;
+}
+
+.pencil{
+    margin-top: -24%;
+    margin-left: 75%;
+}
+
+.pencil i{
+    font-size: 200%;
+    color: orangered;
+}
+
+.pencil h2{
+    margin-top: 1%;
+}
+
+.pencil p{
+    margin-top: 1%;
+    max-width: 100%;
+}
+
+.car{
+    margin-top: 3%;
+    margin-left: 75%;
+}
+
+.car i{
+    font-size: 250%;
+    color: orangered;
+}
+
+.car h2{
+    margin-top: 1%;
+}
+
+.car p{
+    margin-top: 1%;
+    max-width: 100%;
+}
+
+.third{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.third h1{
+    margin-top: 1%;
+}
+
+.third p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 1%;
+    line-height: 1.5;
+}
+
+.redline{
+    border-bottom: solid 1px red;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.nava .menua{
+    color: grey;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nava{
+    background-color: white;
+    width: 80%;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: auto;
+}
+
+.nava .menua>li{
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.reda{
+    color: red;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 350px 350px 350px 350px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.grid>div{
+    background-color: bisque;
+    margin: 3%;
+}
+
+.fourth{
+    margin-left: 9%;
+    margin-top: 3%;
+    max-width: 25%;
+}
+
+.fourth p{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.redlinea{
+    border-bottom: solid 1px red;
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% auto auto auto auto;
+    grid-template-rows: auto auto auto 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    grid-column-gap: 50px;
+}
+
+.grid-item{
+    background-color: rgba (255, 255, 255, 0.8);
+    text-align: center;
+    background-color: bisque;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: bisque;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.item3{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    text-align: left;
+    width: 75%;
+}
+
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: white;
+    font-style: italic;
+    text-align: left;
+    display: block;
+}
+
+.item5 div{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: grid;
+}
+
+.grid-container .menu>li{
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-left: -15px;
+}
+
+.fona{
+    background: bisque;
+    width: auto;
+    padding: 5px;
+    height: 350px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.fona h1{
+    color: white;
+    margin-top: 75px;
+}
+
+.fona p{
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+}
+
+.fona input{
+    width: 25%;
+    margin-top: 3%;
+    margin: 20px;
+    border-radius: 10px;
+    outline: none;
+    height: 80px;
+}
+
+.fona button{
+    padding: 20px;
+    width: 8%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    height: 80px;
+    width: 190px;
+    font-weight: 600;
+}
+
+.night{
+    margin-left: 10%;
+    margin-top: 5%;
+    max-width: 25%;
+}
+
+.night p{
+    margin-top: 7%;
+}
+
+.redlineb{
+    border-bottom: solid 1px red;
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.grid-containera{
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    grid-template-rows: 15% 70% 15%;
+    margin-left: 10%;
+    margin-top: 2%;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    height: 250px;
+}
+
+.id1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: lightgrey;
+    outline: none;
+}
+
+.id2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: lightgrey;
+    outline: none;
+}
+
+.id3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: lightgrey;
+    outline: none;
+}
+
+.id4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+.id5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgb(32, 24, 24);
+    color: white
+}
+
+.id5>div{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.last{
+    background-color: rgb(32, 24, 24);
+    margin-top: 5%;
+    height: 50px;
+    padding-left: 10%;
+    padding-top: 50px;
+    color: lightgrey;
+}
+
+.last>div{
+   display: inline;
+   font-size: 150%;
+}
+
+.morning{
+    margin-left: 60%;
+}

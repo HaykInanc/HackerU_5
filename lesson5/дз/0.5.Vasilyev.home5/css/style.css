@@ -1,0 +1,747 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  background-color: bisque;
+  height: 360px;
+}
+
+nav ul{
+  background-color: gray;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li{
+  display: inline;
+  padding: 30px;
+  color: black;
+}
+
+.end{
+  background-color: red;
+  padding: 10px;
+}
+
+.end a{
+  color: white;
+}
+
+.cont{
+  width: 80%;
+  height: 360px;
+  margin: 0px 10% 0 10%;
+  padding-top: 40px;
+}
+
+.cont h2{
+  display: block;
+  width: 40%;
+  height: 60px;
+  font-size: 15px;
+}
+
+.cont p{
+  display: block;
+  float: left;
+  width: 40%;
+  height: 140px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.cont iframe{
+  float: right;
+  width: 360px; 
+  height: 240px;
+}
+
+header button{
+  display: block;
+  position: relative;
+  margin-top: 140px;
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+} 
+
+/* Конец верхнего блока */
+
+.top{
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#outer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#outer-grid>div>h3{
+  margin: 20px 20px 20px 0;
+}
+
+#outer-grid>div>p{
+  padding: 15px 35px 0 0;
+  text-align: justify;
+}
+
+#inner-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+#inner-grid>div{
+  padding-top: 15px;
+}
+
+#inner-grid>div>h4{
+  padding: 10px 10px 0 0;
+}
+
+#inner-grid>div>p{
+  padding: 10px 10px 0 0;
+  text-align: justify;
+}
+
+#inner-grid>div>i{
+  color: red;
+}
+
+.top button{
+  display: block;
+  position: relative;
+  margin-top: 70px;
+  width: 40%;
+  height: 40px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+}
+
+/* Конец первого грида (кто бы знал, сколько я с ним сношался с непривычки-то!) */
+
+hr{
+  background-color: black;
+  height: 2px;
+  width: 80%;
+  margin: 20px 10% 10px 10%;
+ }
+
+ hr.short{
+  background-color: red;
+  height: 2px;
+  width: 20%;
+  margin: 20px 40% 20px 40%;
+ }
+
+ hr.short2{
+  background-color: red;
+  height: 2px;
+  width: 10%;
+  margin: 20px 70% 20px 10%;
+ }
+
+ hr.short3{
+  background-color: red;
+  height: 2px;
+  width: 20%;
+  margin: 20px 70% 20px 10%;
+ }
+
+ /* Конец оформления линий */
+
+.middle{
+  display: inline-block;
+}
+
+ .middle h2{
+   text-align: center;
+   margin-top: 30px;
+ }
+
+.middle p{
+  width: 40%;
+  margin: 10px 30% 10px 30%;
+  text-align: justify;
+}
+
+nav2 ul{
+  width: 80%;
+  margin: 20px 10% 0 10%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+nav2 ul li{
+  display: inline;
+  padding: 10px;
+}
+
+nav2 ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.peculiar{
+  color: red;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 30px 10% 0 10%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.grid-item2{
+  background-color: bisque;
+  height: 180px;
+  text-align: center;
+}
+
+.middle>div>h3{
+margin: 20px 0 10px 10%;
+}
+
+.middle>div>p{
+  margin: 20px 0 10px 10%;
+  text-align: justify;
+}
+
+/* Начало второго middle */
+
+.middle2mobile{
+  display: none;
+}
+
+.middle2{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width:80%;
+  height: 300px;
+  margin: 0 10%;
+  font-size: 0;
+  column-gap: 5%;
+}
+
+.leftblock{
+  display: inline-block;
+  height: 300px;
+  background-color: bisque;
+  width: 100%;
+  font-size: 16px;
+}
+
+.rightblock{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.rightblock_item1 h4{
+  display: block;
+  height: 20%;
+  font-size: 16px;
+}
+
+.rightblock_item1 p{
+  display: block;
+  height: 60%;
+  width: 90%;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.rightblock_item1 .links{
+  display: block;
+  height: 20%;
+  width: 80%;
+  font-size: 16px;
+}
+
+.rightblock_item1 .links a{
+padding-right: 10%;
+text-decoration: none;
+color: black;
+}
+
+.rightblock_item1{
+  display: block;
+  height: 100%;
+}
+
+.rightblock_item2{
+  position: relative;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2%;
+}
+
+.grid-item3 div{
+  position: absolute;
+  height: 15%;
+  width: 100%;
+  bottom: 0;
+  background-color: grey;
+  font-size: 12px;
+  padding: 8px 0 0 0;
+}
+
+.grid-item3{
+  position: relative;
+  display: inline-block;
+  background-color: bisque;
+  text-align: center;
+}
+
+.grid5{
+  display: grid;
+  width: 90%;
+  margin: 50px 0 50px 10%;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid5_item{
+  display: inline-block;
+}
+
+.grid6{
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid6_item{
+  display: block;
+}
+
+/* Конец гридов. Вообще. (Но кое-где они всё равно ещё валяются) */
+
+.middle3{
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  margin: 30px 0 30px 0;
+  background-color: bisque;
+  text-align: center;
+  color: white;
+}
+
+.middle3 h4{
+  padding: 30px 0 0 0;
+}
+
+.middle3 p{
+  padding: 15px;
+}
+
+.middle3 form>{
+  margin: 10px;
+}
+
+.middle3 input{
+  display: inline-block;
+  width: 30%;
+  height: 40px;
+  padding-left: 3%;
+}
+
+.middle3 button{
+  display: inline-block;
+  width: 20%;
+  height: 46px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Дальше только bottom */
+
+.bottom{
+  width: 90%;
+  margin: 0 0 0 10%;
+  font-size: 0;
+}
+
+.bottom h3{
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.bottom p{
+  padding-top: 15px;
+  width: 70%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.small{
+  float: left;
+  width: 46%;
+  height: 40px;
+  padding: 0 0 0 3%;
+}
+
+.small2{
+  float: right;
+  width: 46%;
+  height: 40px;
+  padding: 0 0 0 3%;
+}
+
+.big{
+  width: 96.5%;
+  height: 40px;
+  margin: 30px 0 0 0;
+  padding: 0 0 100px 3%; 
+}
+
+.grid5_item button{
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.contact{
+  float: right;
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.contact h3{
+  margin: 30px 0 0 20px;
+}
+
+.contact address{
+  margin: 30px 0 0 20px;
+}
+
+.contact address a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+  display: inline-block;
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 0;
+}
+
+footer p{
+  color: white;
+  float: left;
+  font-size: 16px;
+  padding: 17px 10px 17px 10px
+}
+
+footer i{
+  float: right;
+  color: white;
+  font-size: 16px;
+  padding: 17px 10px 17px 10px
+}
+
+@media (max-width: 786px){
+
+  .middle p{
+    width: 80%;
+    margin: 10px 10% 10px 10%;
+    text-align: justify;
+  }
+  
+  .cont h2{
+    height: 30px;
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .cont p{
+    height: 108px;
+    font-size: 12px;
+  }
+  
+  .cont iframe{
+    width: 286px; 
+    height: 192px;
+  }
+  
+  header button{
+    margin-top: 108px;
+    width: 30%;
+  }
+
+    /* Конец хедера */
+
+  #outer-grid{
+    height: 655px;
+  }
+
+  .top button{
+    width: 50%;
+  }
+
+    /* Конец top */
+
+  .grid5{
+    display: inline;
+  }
+
+  .grid5_item{
+    display: inline;
+  }
+
+  .grid6_item{
+    display: inline;
+  }
+
+  .small{
+    width: 36%;
+    margin: 20px 0 0 10%;
+  }
+
+  .small2{
+    width: 35%;
+    margin: 20px 10% 0 0;
+  }
+
+  .big{
+    width: 76.5%;
+    margin: 30px 0 0 10%;
+  }
+
+  .grid5_item button{
+    width: 80%;
+    margin: 30px 0 50px 10%;
+  }
+
+  .contact{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+  }
+
+  .rightblock_item1 h4{
+    height: 15%;
+    font-size: 15px;
+  }
+
+  .rightblock_item1 p{
+    height: 65%;
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 640px){
+
+  header{
+    height: 500px;
+  }
+
+  nav ul li{
+  font-size: 2vw;
+  padding: 8px 10px 8px 10px;
+  }
+
+  .cont{
+    height: 420px;
+    text-align: center;
+  }
+
+  .cont h2{
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    padding:15px 0 7px 0;
+  }
+
+  .cont p{
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    padding:7px 0 15px 0;
+  } 
+
+  .cont iframe{
+    display: inline-block;
+    width: 100%;
+  }
+
+  header button{
+    margin: 0 25% 0 25%;
+    width: 50%;
+  }
+
+    /* Конец хедера */
+
+  #outer-grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #inner-grid{
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .top button{
+    margin-top: 40px;
+    width: 40%;
+  }
+
+  hr{
+    margin: 330px 10% 10px 10%;
+  }
+
+  .middle p{
+    width: 80%;
+    margin: 10px 10% 10px 10%;
+  }
+
+    /* Конец middle */
+
+  .grid-container2{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-item2{
+    height: 180px;
+  }
+
+    /* Начало второго middle */
+
+  .middle2{
+    display: none;
+  }
+
+  .middle2mobile{
+    display: inline-block;
+    width: 80%;
+    height: 370px;
+    margin: 20px 10% 20px 10%;
+  }
+
+  .mobile_grid1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 10%;
+    height: 230px;
+    font-size: 16px;
+  }
+
+  .mobile1{
+    background-color: bisque;
+    width: 100%;
+    height: 230px;
+  }
+
+  .mobile2{
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+  }
+
+  .links{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0 6% 0 0;
+  }
+
+  .mobile_grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    height: 100px;
+    font-size: 16px;
+  }
+
+  .grid-item3{
+    background-color: bisque;
+  }
+
+  .grid-item3 div{
+    position: absolute;
+    background-color: grey;
+    height: 18px;
+    bottom: 0;
+    text-align: center;
+    font-size: 2.4vw;
+  }
+
+    /*  Ииии-и-и... последний миддл! */
+
+  .middle3 input{
+    width: 50%;
+  }
+
+  .middle3 button{
+    width: 30%;
+  }
+
+    /* Дальше правила для bottom */
+
+  footer{
+    height: 120px;
+  }
+  
+  footer p{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  footer div{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer i{
+    display: block;
+    padding: 10px 17% 10px 0;
+  }
+}
+
+@media (max-width: 320px){
+
+  header button{
+    margin: 0 20% 0 20%;
+    width: 60%;
+  }
+}
